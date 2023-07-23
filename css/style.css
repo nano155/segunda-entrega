@@ -53,28 +53,28 @@ nav ul li a svg:hover {
 
 .img-f1 {
     width: 50%;
-    background-image: url("/img/tomahawk\(8\).png");
+    background-image: url("../img/tomahawk.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .img-f2 {
     width: 50%;
-    background-image: url("/img/SB-38.png");
+    background-image: url("../img/SB-38.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .img-f3 {
     width: 50%;
-    background-image: url("/img/comidas.png");
+    background-image: url("../img/comidas.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .img-f4 {
     width: 50%;
-    background-image: url("/img/bebidas.png");
+    background-image: url("../img/bebidas.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -104,7 +104,7 @@ nav ul li a svg:hover {
     color: #e2962b;
 }
 #carta{
-    background-image: url("/img/textura-fondo-menu.png");
+    background-image: url("../img/textura-fondo-menu.png");
     background-size: cover;
     padding: 3rem;;
 }
@@ -145,7 +145,7 @@ nav ul li a svg:hover {
     margin-right: 150px;
 }
 #footer {
-    background-image: url("/img/fondo_footer.jpg");
+    background-image: url("../img/fondo_footer.jpg");
     background-size: contain;
     position: relative;
     display: flex;
@@ -186,14 +186,14 @@ nav ul li a svg:hover {
 
     .img-f1 {
         width: 50%;
-        background-image: url("/img/tomahawk\(8\).png");
+        background-image: url("../img/tomahawk.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .img-f2 {
         width: 50%;
-        background-image: url("/img/SB-38.png");
+        background-image: url("../img/SB-38.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
