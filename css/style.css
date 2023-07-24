@@ -87,6 +87,9 @@ nav ul li a svg:hover {
     align-items: center;
     color: #ffffff;
 }
+.dropdown{
+    visibility: collapse !important;
+}
 
 .texto h2 {
     font-family: 'Caveat', cursive;
@@ -106,7 +109,7 @@ nav ul li a svg:hover {
 #carta{
     background-image: url("../img/textura-fondo-menu.png");
     background-size: cover;
-    padding: 3rem;;
+    padding: 3rem;
 }
 .opciones ul{
     list-style: none;
@@ -183,6 +186,11 @@ nav ul li a svg:hover {
     body {
         font-size: 14px;
     }
+    #carta{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
 
     .img-f1 {
         width: 50%;
@@ -206,12 +214,10 @@ nav ul li a svg:hover {
         row-gap: 25px;
     }
     .opciones ul{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        row-gap: 50px;
-        align-items: center;
+        visibility: collapse;
+    }
+    .dropdown{
+        visibility: visible !important;
     }
 }
 
@@ -223,6 +229,7 @@ nav ul li a svg:hover {
     #logo-nav {
         width: 80px;
     }
+
 
     .img-container {
         display: flex;
