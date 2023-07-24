@@ -108,7 +108,7 @@ nav ul li a svg:hover {
 }
 #carta{
     background-image: url("../img/textura-fondo-menu.png");
-    background-size: cover;
+    background-size: contain;
     padding: 3rem;
 }
 .opciones ul{
