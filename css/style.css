@@ -10,6 +10,11 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 15px;
 }
+#body{
+    background-image: url("../img/imagen-about.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+}
 
 .nav-s {
     display: flex;
@@ -21,6 +26,17 @@ body {
     width: 100%;
     z-index: 1;
     position: fixed;
+}
+.nav-s2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 100%;
+    z-index: 1;
+    position: sticky;
 }
 
 nav ul {
@@ -78,7 +94,6 @@ nav ul li a svg:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .texto {
     margin: 50%;
     margin-top: 30rem;
