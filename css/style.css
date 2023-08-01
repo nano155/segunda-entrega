@@ -10,12 +10,6 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 15px;
 }
-#body{
-    background-image: url("../img/imagen-about.jpg");
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
 .nav-s {
     display: flex;
     align-items: center;
@@ -36,7 +30,7 @@ body {
     padding: 1rem;
     width: 100%;
     z-index: 1;
-    position: sticky;
+    position: fixed;
 }
 
 nav ul {
@@ -65,6 +59,16 @@ nav ul li a svg:hover {
     justify-content: center;
     flex-wrap: wrap;
     height: 120vh;
+}
+.container-fondo{
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+}
+.img-fondo{
+    width: 100%;
+    background-image: url("../img/imagen-about.jpg");
+    background-size: cover;
 }
 
 .img-f1 {
@@ -139,6 +143,39 @@ nav ul li a svg:hover {
     color: #ffffff;
     border: 2px solid white;
     padding: 0.5rem;
+}
+.about-us{
+    width: 100%;
+    background-image: url("../img/fondo-azul-oscuro-fondo-azul-oscuro_544662-302.jpg");
+    background-size: cover; padding: 2rem;
+}
+.grid-about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.imagen-card-1{
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/cupcakes-g1838ce009_1280.jpg");
+    background-size: cover;
+}
+.imagen-card-2{
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/drinks-g07dc67b86_1280.jpg");
+    background-size: cover; 
+}
+.imagen-card-3{
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/pink-wine-gf69d401e6_1280.jpg");
+    background-size: cover; 
+}
+.textos-about{
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 .grid-carta{
     margin-top: 50px;
